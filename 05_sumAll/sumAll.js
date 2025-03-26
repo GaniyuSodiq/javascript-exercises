@@ -27,5 +27,12 @@ const sumAll = function(firstNum, secondNum) {
 // so did the mighty o'l google and landed on this https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
 // from this search "how to get non integer parameter in javascript"
 
+// AN ALTERNATIVE WAY TO THE IF STATEMENTS - SWAP THE VALUES OF THE NUMBERS
+// if (min > max) {
+//     const temp = min;
+//     min = max;
+//     max = temp;
+// }
+
 // Do not edit below this line
 module.exports = sumAll;
